@@ -1524,14 +1524,13 @@
 
       <div class="container">
         <div class="copyright">
-          &copy; Copyright <strong><span>Galaxieon</span></strong
+          &copy; <span id="year"></span> Copyright <strong><span>Galaxieon</span></strong
           >. All Rights Reserved
         </div>
         <div class="credits">Designed by <a href="/">Galaxieon</a></div>
       </div>
     </footer>
     <!-- End Footer -->
-
     <a
       href="#"
       class="back-to-top d-flex align-items-center justify-content-center"
@@ -1556,5 +1555,9 @@
     ></script>
     <!-- Form Submit -->
     <script src="./assets/js/form-submit.js"></script>
+    <!-- Copyright Year -->
+    <script>
+      document.getElementById("year").innerText = new Date().getFullYear()
+    </script>
   </body>
 </html>
